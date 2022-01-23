@@ -258,10 +258,15 @@ BUILD VIRTUALBOX:
 
 
 RUN VIRTUALBOX:
+
     in out\win.amd64\release\bin
+
     start
+
         comregister.cmd
+
         loadall.cmd
+
         virtualbox.exe
 
 
