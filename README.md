@@ -4,33 +4,59 @@ Environment setup and tools to install:
 Win10 (ENGLISH VERSION PREFERRED)
 
 TortoiseSVN (https://tortoisesvn.net/downloads.html)
+
 Python2.7 (https://www.python.org/downloads/release/python-2718/)
+
 Strawberry Perl 5.32 (https://strawberryperl.com/download/5.32.1.1/strawberry-perl-5.32.1.1-64bit.msi)
+
 yasm (http://www.tortall.net/projects/yasm/releases/yasm-1.3.0-win64.exe)
+
 nasm (https://www.nasm.us/pub/nasm/releasebuilds/2.15.05/win64/nasm-2.15.05-installer-x64.exe)
+
 Windows Platform SDK V7.1A (https://www.microsoft.com/en-us/download/details.aspx?id=8279)
+
 Windows DDK V7.1 (https://www.microsoft.com/en-us/download/details.aspx?displaylang=en&id=11800)
+
 Windows 10 WDK 19041 (wdksetup-19041)
+
 Visual Studio 2019 ENGLISH VERSION (MUST) (VC142) (with git support) (find it online by yourself)
+
 Windows 10 SDK 10.0.19041.0 (This can be found in VS2019 installation)
+
 Qt5.9.0.0 (https://mirrors.tuna.tsinghua.edu.cn/qt/archive/qt/5.9/5.9.0/qt-opensource-windows-x86-5.9.0.exe)
+
 SDL-1.2 (git clone https://github.com/libsdl-org/SDL-1.2.git)
 
 Tools installation:
+
     install Win10-EN
+
     install VS2019-EN (With Win10SDK 10.0.19041.0)
+
     install WDK-19041
+
     install python2.7
+
     install Strawberry Perl
+
     install WINPSDK7.1
+
     install DDK71
+
     install nasm
+
     install yasm
+
       download and rename and copy to C:\Windows\System32
+
     install Qt5.9.0.0
+
       to C:\Qt
+
     try C:/WinDDK/7600.16385.1/bin/selfsign/inf2cat.exe 
+
         if .NET Framework3.5 is not installed, Windows will install it automatically
+
 
 Source preparation:	
         
