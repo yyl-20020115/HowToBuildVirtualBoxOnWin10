@@ -219,7 +219,7 @@ MODIFICATIONS:
         this file is never used, find a dll and rename to this and put into 
         C:\Qt\Qt5.9.0\5.9\msvc2015_64\plugins\styles\
     src\VBox\HostDrivers\Support\win\SUPDrv-win.cpp
-        2768: disable following lines
+        2678: disable following lines
         #if 0
             /* Ditto for the XFG variants: */
             if (   pCfg->Size >= RT_UOFFSET_AFTER(IMAGE_LOAD_CONFIG_DIRECTORY, GuardXFGCheckFunctionPointer)
