@@ -1,0 +1,1 @@
+cscript configure.vbs --with-libsdl=libsdl
