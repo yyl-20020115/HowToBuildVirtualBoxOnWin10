@@ -61,16 +61,17 @@ Tools installation:
 Source preparation:	
         
     Copy kBuild/sdks/WINPSDK71INCS.kmk to kBuild/sdks/WINPSDK71-INCS.kmk
-    Copy C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sal.h 
+    Copy /y "C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sal.h" 
         to C:\WinDDK\7600.16385.1\inc\ddk 
            C:\WinDDK\7600.16385.1\inc\api
              and overwrite if having one already (remember to backup first)
 
-    Copy C:\WinDDK\7600.16385.1\lib\win7\amd64\newdev.lib "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x64\"
-    Copy C:\WinDDK\7600.16385.1\lib\win7\i386\newdev.lib  "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x86\"
-    Copy C:\WinDDK\7600.16385.1\lib\win7\i386\newdev.lib  "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x86\"
-    Copy C:\WinDDK\7600.16385.1\lib\win7\amd64\ddraw.lib  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\"
-    Copy C:\WinDDK\7600.16385.1\lib\win7\amd64\dxguid.lib  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\amd64\newdev.lib "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x64\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\i386\newdev.lib  "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x86\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\amd64\ddraw.lib  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\i386\ddraw.lib  "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\km\x86\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\amd64\dxguid.lib  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\x64\"
+    Copy /y C:\WinDDK\7600.16385.1\lib\win7\i386\dxguid.lib  "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib\"
     
     Create folder c:\bin
     Copy c:\Strawberry\c\bin\nm.exe c:\bin\
