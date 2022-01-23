@@ -209,7 +209,7 @@ MODIFICATIONS:
         before
             everything
 
-    src/VBox/Frontends/VirtualBox/src/globals/UICommon.cpp	
+    src\VBox\Frontends\VirtualBox\src\globals\UICommon.cpp	
     1009: disable the following line:
         #if 0
           darkPalette.setColor(QPalette::PlaceholderText, disabledColor);
