@@ -19,7 +19,7 @@ Windows DDK V7.1 (https://www.microsoft.com/en-us/download/details.aspx?displayl
 
 Windows 10 WDK 19041 (wdksetup-19041)
 
-Visual Studio 2019 ENGLISH VERSION (MUST) (VC142) (with git support) (find it online by yourself)
+Visual Studio 2019 (VC142) (with git support) (find it online by yourself)
 
 Windows 10 SDK 10.0.19041.0 (This can be found in VS2019 installation)
 
@@ -247,6 +247,8 @@ BEFORE CONTINUE, MAKE SURE THAT YOU COMPLETED THE PREVIOUS STEPS!
 BUILD VIRTUALBOX:
 
     start "x64 Nativie Tools Command Prompt for VS2019"
+    chcp 437
+    (change codepage to en-us,this is required if your Windows is not English version)
     cd c:\working\vbox
     mkdir out\win.amd64\release\
     under vbox folder:
