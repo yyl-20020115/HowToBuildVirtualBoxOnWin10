@@ -121,6 +121,9 @@ MODIFICATIONS:
     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\OAIdl.Idl
     258: //_VARIANT_BOOL bool;         /* (obsolete)           */
     273: //_VARIANT_BOOL *pbool;       /* (obsolete)           */
+    C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\OAIdl.h
+    445: //_VARIANT_BOOL bool;         /* (obsolete)           */
+    460: //_VARIANT_BOOL *pbool;       /* (obsolete)           */
     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PropIdl.h
     319: //_VARIANT_BOOL bool;
 
